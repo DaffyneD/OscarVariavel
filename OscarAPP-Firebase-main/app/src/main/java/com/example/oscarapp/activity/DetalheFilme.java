@@ -21,6 +21,7 @@ import com.example.oscarapp.R;
 import com.example.oscarapp.activity.ListaFilme;
 import com.example.oscarapp.adapter.ListaFilmeAdapter;
 import com.squareup.picasso.Picasso;
+import static com.example.oscarapp.activity.BoasVindasActivity.salvarFilme;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,7 @@ public class DetalheFilme extends AppCompatActivity {
     ImageView img;
     Button btnVotoFilme;
     Filme film;
-    public static Filme salvarFilme;
+    //public static Filme salvarFilme;
     private static final String TAG = "MyActivity";
 
     @Override

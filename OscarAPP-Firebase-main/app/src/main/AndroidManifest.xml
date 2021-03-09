@@ -13,11 +13,11 @@
         android:theme="@style/Theme.OscarApp">
         <activity android:name=".activity.ConfirmarActivity"></activity>
         <activity android:name=".activity.DetalheFilme" />
-        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.BoasVindasActivity" />
         <activity android:name=".activity.ListaFilme" />
         <activity android:name=".activity.DiretorActivity" />
         <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.BoasVindasActivity">
+        <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

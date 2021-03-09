@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.example.oscarapp.R;
 
-import static com.example.oscarapp.activity.DetalheFilme.salvarFilme;
+import static com.example.oscarapp.activity.BoasVindasActivity.salvarFilme;
 
 public class ConfirmarActivity extends AppCompatActivity {
 
@@ -29,7 +29,7 @@ public class ConfirmarActivity extends AppCompatActivity {
         Bundle paramR = intentR.getExtras();
 
 
-        if(paramR != null ){
+        if(paramR != null){
             String nomeDi = paramR.getString("nome");
             int idDi = paramR.getInt("id");
                 nomediretor = nomeDi;
